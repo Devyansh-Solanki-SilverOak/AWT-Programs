@@ -1,4 +1,4 @@
-## Code for calling our functions
+## Code for calling our functions ##
 
 ```
 try{
@@ -9,14 +9,16 @@ try{
 }
 ```
 
-## Title
+
+## Title ##
 
 ```
 <div class="si-widget"></div>
 <img width="1" height="1" alt="shipping protection" style="width: 1px; height: 1px;" onLoad="simplyInsurance.loadApp();" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw==" />
 ```
 
-## Title
+
+## Title ##
 
 ```
 document.body.dispatchEvent(new CustomEvent("cart:refresh"));
@@ -24,7 +26,8 @@ document.body.dispatchEvent(new CustomEvent("added.ajaxProduct"));
 theme.jQuery("body").trigger("added.ajaxProduct");
 ```
 
-## Title
+
+## Title ##
 
 ```
 const search = what => simplyInsurance.insurancePlan.planArray.find(element => element.variant_id == what);
@@ -41,7 +44,8 @@ window.SLIDECART_REMOVED_FROM_CART = function({ id }) {
 }
 ```
 
-## Title
+
+## Title ##
 
 ```
   getSectionInnerHTML= function(html, selector = '.shopify-section') {
@@ -83,7 +87,8 @@ window.SLIDECART_REMOVED_FROM_CART = function({ id }) {
     });
 ```
 
-## Title
+
+## Code for cart refresh in prestige theme & other themes ##
 
 ```
 document.documentElement.dispatchEvent(new CustomEvent('cart:refresh', {
@@ -98,7 +103,8 @@ theme.cart.updateTotals();
 document.dispatchEvent(new CustomEvent('cart:build'));
 ```
 
-## Title
+
+## Title ##
 
 Shipping Protection from Damage, Loss & Theft for ##plan_price 
 ```
