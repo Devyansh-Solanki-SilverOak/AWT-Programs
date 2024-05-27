@@ -1,3 +1,4 @@
+## Code for calling our functions ##
 ```
 try{
     if(simplyInsurance && typeof simplyInsurance !== "undefined" )
